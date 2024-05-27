@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>unemployment.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS_Code" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="State" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Area_name" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Rural_urban_continuum_code_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Urban_influence_code_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="City/Suburb/Town/Rural" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Metro_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2000" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2000" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2000" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2000" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2001" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2001" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2001" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2001" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2002" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2002" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2002" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2002" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2003" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2003" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2003" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2003" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2004" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2004" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2004" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2004" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2005" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2005" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2005" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2005" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2006" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2006" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2006" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2006" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2007" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2007" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2007" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2007" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2008" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2008" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2008" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2008" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2009" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2009" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2009" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2009" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2010" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2010" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2010" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2010" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2011" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2011" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2011" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2011" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2012" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2012" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2012" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2012" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2013" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2014" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2014" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2014" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2014" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2015" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2015" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2015" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2015" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2016" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2016" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2016" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2016" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2017" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2017" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2017" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2017" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2018" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2018" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2018" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2018" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Civilian_labor_force_2020" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Employed_2020" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployed_2020" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Unemployment_rate_2020" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Median_Household_Income_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+            <Field name="Med_HH_Income_Percent_of_State_Total_2019" size="254" source="File: C:\Users\pavaaannn\OneDrive\Documents\17-USA Unemployment &amp; Education Level\unemployment.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="150" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Civilian_labor_force_2000","Employed_2000","Unemployed_2000","Civilian_labor_force_2001","Employed_2001","Unemployed_2001","Civilian_labor_force_2002","Employed_2002","Unemployed_2002","Civilian_labor_force_2003","Employed_2003","Unemployed_2003","Civilian_labor_force_2004","Employed_2004","Unemployed_2004","Civilian_labor_force_2005","Employed_2005","Unemployed_2005","Civilian_labor_force_2006","Employed_2006","Unemployed_2006","Civilian_labor_force_2007","Employed_2007","Unemployed_2007","Civilian_labor_force_2008","Employed_2008","Unemployed_2008","Civilian_labor_force_2009","Employed_2009","Unemployed_2009","Civilian_labor_force_2010","Employed_2010","Unemployed_2010","Civilian_labor_force_2011","Employed_2011","Unemployed_2011","Civilian_labor_force_2012","Employed_2012","Unemployed_2012","Civilian_labor_force_2013","Employed_2013","Unemployed_2013","Civilian_labor_force_2014","Employed_2014","Unemployed_2014","Civilian_labor_force_2015","Employed_2015","Unemployed_2015","Civilian_labor_force_2016","Employed_2016","Unemployed_2016","Civilian_labor_force_2017","Employed_2017","Unemployed_2017","Civilian_labor_force_2018","Employed_2018","Unemployed_2018","Civilian_labor_force_2019","Employed_2019","Unemployed_2019","Civilian_labor_force_2020","Employed_2020","Unemployed_2020","Median_Household_Income_2019"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove leading &amp; Trailing spaces, punctuations</AnnotationText>
+          <DefaultAnnotationText>Remove leading &amp; Trailing spaces, punctuations</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PAVAAA~1\AppData\Local\Temp\Engine_12052_3d5d263ccc5c104f9b98810a40529d4f_\Engine_12052_00cf56dea831f44e91b8786c5b063230~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PAVAAA~1\AppData\Local\Temp\Engine_12052_3d5d263ccc5c104f9b98810a40529d4f_\Engine_12052_8b4e3c98b9974e4f850e1943ae9a9e4a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Rural_urban_continuum_code_2013" selected="False" />
+            <SelectField field="Metro_2013" selected="False" />
+            <SelectField field="Civilian_labor_force_2000" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2000" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2000" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2000" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2001" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2001" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2001" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2001" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2002" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2002" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2002" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2002" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2003" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2003" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2003" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2003" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2004" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2004" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2004" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2004" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2005" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2005" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2005" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2005" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2006" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2006" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2006" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2006" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2007" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2007" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2007" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2007" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2008" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2008" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2008" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2008" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2009" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2009" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2009" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2009" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2010" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2010" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2010" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2010" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2011" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2011" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2011" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2011" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2012" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2012" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2012" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2012" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2013" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2013" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2013" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2013" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2014" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2014" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2014" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2014" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2015" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2015" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2015" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2015" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2016" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2016" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2016" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2016" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2017" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2017" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2017" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2017" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2018" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2018" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2018" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2018" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2019" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2019" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2019" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2019" selected="True" type="Double" size="8" />
+            <SelectField field="Civilian_labor_force_2020" selected="True" type="Double" size="8" />
+            <SelectField field="Employed_2020" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployed_2020" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate_2020" selected="True" type="Double" size="8" />
+            <SelectField field="Median_Household_Income_2019" selected="True" type="Double" size="8" />
+            <SelectField field="Med_HH_Income_Percent_of_State_Total_2019" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Change the field type accordingly</AnnotationText>
+          <DefaultAnnotationText>Change the field type accordingly</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="414" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"FIPS_Code","State","Area_name","Urban_influence_code_2013","City/Suburb/Town/Rural","Civilian_labor_force_2000","Employed_2000","Unemployed_2000","Unemployment_rate_2000","Civilian_labor_force_2001","Employed_2001","Unemployed_2001","Unemployment_rate_2001","Civilian_labor_force_2002","Employed_2002","Unemployed_2002","Unemployment_rate_2002","Civilian_labor_force_2003","Employed_2003","Unemployed_2003","Unemployment_rate_2003","Civilian_labor_force_2004","Employed_2004","Unemployed_2004","Unemployment_rate_2004","Civilian_labor_force_2005","Employed_2005","Unemployed_2005","Unemployment_rate_2005","Civilian_labor_force_2006","Employed_2006","Unemployed_2006","Unemployment_rate_2006","Civilian_labor_force_2007","Employed_2007","Unemployed_2007","Unemployment_rate_2007","Civilian_labor_force_2008","Employed_2008","Unemployed_2008","Unemployment_rate_2008","Civilian_labor_force_2009","Employed_2009","Unemployed_2009","Unemployment_rate_2009","Civilian_labor_force_2010","Employed_2010","Unemployed_2010","Unemployment_rate_2010","Civilian_labor_force_2011","Employed_2011","Unemployed_2011","Unemployment_rate_2011","Civilian_labor_force_2012","Employed_2012","Unemployed_2012","Unemployment_rate_2012","Civilian_labor_force_2013","Employed_2013","Unemployed_2013","Unemployment_rate_2013","Civilian_labor_force_2014","Employed_2014","Unemployed_2014","Unemployment_rate_2014","Civilian_labor_force_2015","Employed_2015","Unemployed_2015","Unemployment_rate_2015","Civilian_labor_force_2016","Employed_2016","Unemployed_2016","Unemployment_rate_2016","Civilian_labor_force_2017","Employed_2017","Unemployed_2017","Unemployment_rate_2017","Civilian_labor_force_2018","Employed_2018","Unemployed_2018","Unemployment_rate_2018","Civilian_labor_force_2019","Employed_2019","Unemployed_2019","Unemployment_rate_2019","Civilian_labor_force_2020","Employed_2020","Unemployed_2020","Unemployment_rate_2020","Median_Household_Income_2019","Med_HH_Income_Percent_of_State_Total_2019"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cleanse the data</AnnotationText>
+          <DefaultAnnotationText>Cleanse the data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="534" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Area_name</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Area_name</RootName>
+          <Delimeters value="," />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Split the area name field</AnnotationText>
+          <DefaultAnnotationText>Split the area name field</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS_Code" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Area_name1" selected="True" />
+            <SelectField field="Area_name" selected="False" />
+            <SelectField field="Rural_urban_continuum_code_2013" selected="False" />
+            <SelectField field="Urban_influence_code_2013" selected="True" />
+            <SelectField field="City/Suburb/Town/Rural" selected="True" />
+            <SelectField field="Metro_2013" selected="False" />
+            <SelectField field="Civilian_labor_force_2000" selected="True" />
+            <SelectField field="Employed_2000" selected="True" />
+            <SelectField field="Unemployed_2000" selected="True" />
+            <SelectField field="Unemployment_rate_2000" selected="True" />
+            <SelectField field="Civilian_labor_force_2001" selected="True" />
+            <SelectField field="Employed_2001" selected="True" />
+            <SelectField field="Unemployed_2001" selected="True" />
+            <SelectField field="Unemployment_rate_2001" selected="True" />
+            <SelectField field="Civilian_labor_force_2002" selected="True" />
+            <SelectField field="Employed_2002" selected="True" />
+            <SelectField field="Unemployed_2002" selected="True" />
+            <SelectField field="Unemployment_rate_2002" selected="True" />
+            <SelectField field="Civilian_labor_force_2003" selected="True" />
+            <SelectField field="Employed_2003" selected="True" />
+            <SelectField field="Unemployed_2003" selected="True" />
+            <SelectField field="Unemployment_rate_2003" selected="True" />
+            <SelectField field="Civilian_labor_force_2004" selected="True" />
+            <SelectField field="Employed_2004" selected="True" />
+            <SelectField field="Unemployed_2004" selected="True" />
+            <SelectField field="Unemployment_rate_2004" selected="True" />
+            <SelectField field="Civilian_labor_force_2005" selected="True" />
+            <SelectField field="Employed_2005" selected="True" />
+            <SelectField field="Unemployed_2005" selected="True" />
+            <SelectField field="Unemployment_rate_2005" selected="True" />
+            <SelectField field="Civilian_labor_force_2006" selected="True" />
+            <SelectField field="Employed_2006" selected="True" />
+            <SelectField field="Unemployed_2006" selected="True" />
+            <SelectField field="Unemployment_rate_2006" selected="True" />
+            <SelectField field="Civilian_labor_force_2007" selected="True" />
+            <SelectField field="Employed_2007" selected="True" />
+            <SelectField field="Unemployed_2007" selected="True" />
+            <SelectField field="Unemployment_rate_2007" selected="True" />
+            <SelectField field="Civilian_labor_force_2008" selected="True" />
+            <SelectField field="Employed_2008" selected="True" />
+            <SelectField field="Unemployed_2008" selected="True" />
+            <SelectField field="Unemployment_rate_2008" selected="True" />
+            <SelectField field="Civilian_labor_force_2009" selected="True" />
+            <SelectField field="Employed_2009" selected="True" />
+            <SelectField field="Unemployed_2009" selected="True" />
+            <SelectField field="Unemployment_rate_2009" selected="True" />
+            <SelectField field="Civilian_labor_force_2010" selected="True" />
+            <SelectField field="Employed_2010" selected="True" />
+            <SelectField field="Unemployed_2010" selected="True" />
+            <SelectField field="Unemployment_rate_2010" selected="True" />
+            <SelectField field="Civilian_labor_force_2011" selected="True" />
+            <SelectField field="Employed_2011" selected="True" />
+            <SelectField field="Unemployed_2011" selected="True" />
+            <SelectField field="Unemployment_rate_2011" selected="True" />
+            <SelectField field="Civilian_labor_force_2012" selected="True" />
+            <SelectField field="Employed_2012" selected="True" />
+            <SelectField field="Unemployed_2012" selected="True" />
+            <SelectField field="Unemployment_rate_2012" selected="True" />
+            <SelectField field="Civilian_labor_force_2013" selected="True" />
+            <SelectField field="Employed_2013" selected="True" />
+            <SelectField field="Unemployed_2013" selected="True" />
+            <SelectField field="Unemployment_rate_2013" selected="True" />
+            <SelectField field="Civilian_labor_force_2014" selected="True" />
+            <SelectField field="Employed_2014" selected="True" />
+            <SelectField field="Unemployed_2014" selected="True" />
+            <SelectField field="Unemployment_rate_2014" selected="True" />
+            <SelectField field="Civilian_labor_force_2015" selected="True" />
+            <SelectField field="Employed_2015" selected="True" />
+            <SelectField field="Unemployed_2015" selected="True" />
+            <SelectField field="Unemployment_rate_2015" selected="True" />
+            <SelectField field="Civilian_labor_force_2016" selected="True" />
+            <SelectField field="Employed_2016" selected="True" />
+            <SelectField field="Unemployed_2016" selected="True" />
+            <SelectField field="Unemployment_rate_2016" selected="True" />
+            <SelectField field="Civilian_labor_force_2017" selected="True" />
+            <SelectField field="Employed_2017" selected="True" />
+            <SelectField field="Unemployed_2017" selected="True" />
+            <SelectField field="Unemployment_rate_2017" selected="True" />
+            <SelectField field="Civilian_labor_force_2018" selected="True" />
+            <SelectField field="Employed_2018" selected="True" />
+            <SelectField field="Unemployed_2018" selected="True" />
+            <SelectField field="Unemployment_rate_2018" selected="True" />
+            <SelectField field="Civilian_labor_force_2019" selected="True" />
+            <SelectField field="Employed_2019" selected="True" />
+            <SelectField field="Unemployed_2019" selected="True" />
+            <SelectField field="Unemployment_rate_2019" selected="True" />
+            <SelectField field="Civilian_labor_force_2020" selected="True" />
+            <SelectField field="Employed_2020" selected="True" />
+            <SelectField field="Unemployed_2020" selected="True" />
+            <SelectField field="Unemployment_rate_2020" selected="True" />
+            <SelectField field="Median_Household_Income_2019" selected="True" />
+            <SelectField field="Med_HH_Income_Percent_of_State_Total_2019" selected="True" />
+            <SelectField field="Area_name2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove unwanted columns</AnnotationText>
+          <DefaultAnnotationText>Remove unwanted columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1326" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\pavaaannn\OneDrive\Documents\Alteryx\Project\Unemployment_state_wise.xlsx|||state</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unemployment_state_wise.xlsx
+Query=state</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PAVAAA~1\AppData\Local\Temp\Engine_12052_3d5d263ccc5c104f9b98810a40529d4f_\Engine_12052_ddb0374455767047b0250f4d9adc15ec~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PAVAAA~1\AppData\Local\Temp\Engine_12052_3d5d263ccc5c104f9b98810a40529d4f_\Engine_12052_773960215339b04abdf8550e4ccc7f3f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="810" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsEmpty([Urban_influence_code_2013]) AND [FIPS_Code] NOT IN ('02201','02232','02280')</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Filter the data according to state/county level</AnnotationText>
+          <DefaultAnnotationText>IsEmpty([Urban_influence_code_2013]) AND [FIPS_Code] NOT IN ('02201','02232','02...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1338" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\pavaaannn\OneDrive\Documents\Alteryx\Project\unemployment_county_wise.xlsx|||county</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>unemployment_county_wise.xlsx
+Query=county</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1086" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Average([Unemployment_rate_2001],[Unemployment_rate_2002],[Unemployment_rate_2003],[Unemployment_rate_2004],[Unemployment_rate_2005],[Unemployment_rate_2006],[Unemployment_rate_2007],[Unemployment_rate_2008],[Unemployment_rate_2009],[Unemployment_rate_2010])" field="Avg_Unemployment_rate2001-10" size="8" type="Double" />
+            <FormulaField expression="Average([Unemployment_rate_2011],[Unemployment_rate_2012],[Unemployment_rate_2013],[Unemployment_rate_2014],[Unemployment_rate_2015],[Unemployment_rate_2016],[Unemployment_rate_2017],[Unemployment_rate_2018],[Unemployment_rate_2019],[Unemployment_rate_2020])" field="Avg_Unemployment_rate2011-20" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate Avg unemployment rates between 2001 &amp; 2005, 2006 &amp; 2010</AnnotationText>
+          <DefaultAnnotationText>Avg_Unemployment_rate2001-10 = Average([Unemployment_rate_2001],[Unemployment_ra...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1086" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Average([Unemployment_rate_2001],[Unemployment_rate_2002],[Unemployment_rate_2003],[Unemployment_rate_2004],[Unemployment_rate_2005])" field="Avg_Unemployment_rate2001-05" size="8" type="Double" />
+            <FormulaField expression="Average([Unemployment_rate_2006],[Unemployment_rate_2007],[Unemployment_rate_2008],[Unemployment_rate_2009],[Unemployment_rate_2010])" field="Avg_unemployment_rate2006-10" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Calculate Avg unemployment rates between 2001 &amp; 2005, 2006 &amp; 2010</AnnotationText>
+          <DefaultAnnotationText>Avg_Unemployment_rate2001-05 = Average([Unemployment_rate_2001],[Unemployment_ra...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="954" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>!=</Operator>
+            <Field>FIPS_Code</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-11-21 21:04:30</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>00000</Operand>
+              <StartDate>2023-11-21 21:04:30</StartDate>
+              <EndDate>2023-11-21 21:04:30</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Separate the data according to country/state level</AnnotationText>
+          <DefaultAnnotationText>[FIPS_Code] != "00000"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1218" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Urban_influence_code_2013" selected="False" />
+            <SelectField field="City/Suburb/Town/Rural" selected="False" />
+            <SelectField field="Rural_urban_continuum_code_2013" selected="False" />
+            <SelectField field="Metro_2013" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1326" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\pavaaannn\OneDrive\Documents\Alteryx\Project\Unemployment_country_level.xlsx|||US</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unemployment_country_level.xlsx
+Query=US</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="False" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="False" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Unemployment_main</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7d0f3887-8499-46d5-bfbe-2fa3a3a275a7" />
+      <Telemetry>
+        <PreviousWorkflowId value="5fb11645-6a3f-4fe5-b850-0a0f48cc54be" />
+        <OriginWorkflowId value="126d0ea0-fcd1-4474-939b-31273c0384cb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
